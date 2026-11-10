@@ -1,0 +1,27 @@
+{
+  "dataset": {
+    "train_images": 96,
+    "test_images": 40,
+    "resolution": "64x64"
+  },
+  "classical_baseline": {
+    "image_auroc": 1.0,
+    "pixel_auroc": 0.924698,
+    "precision": 0.599005,
+    "recall": 0.501339,
+    "dice": 0.545837,
+    "threshold": 0.246288,
+    "latency_ms": 0.388
+  },
+  "tiny_segmenter": {
+    "image_auroc": 1.0,
+    "pixel_auroc": 0.997885,
+    "precision": 0.899968,
+    "recall": 0.843201,
+    "dice": 0.870661,
+    "threshold": 0.239297,
+    "torch_latency_ms": 0.579,
+    "onnx_latency_ms": 0.1,
+    "model_size_mb": 0.012
+  }
+}
